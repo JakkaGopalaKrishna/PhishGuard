@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #008cff;
+    --primary1-color: #3798ff;
+    --secondary-color: #018582;
+    --font-size0:50px;
+    --font-size1:25px;
+    --font-size2:18px;
+    --font-size3:16px;
+    --text-color:#000000;
+}
+.stAppHeader{
+    display: none;
+}
+.st-emotion-cache-16tyu1{
+    font-weight: 800;
+}
+.st-emotion-cache-br351g{
+    font-size: 20px;font-weight: bold;color: var(--primary-color);
+}
+.stVerticalBlock{
+    gap: 0px;
+}
+
+
+
+.title{
+    background-color: var(--primary-color);
+    color: #2E382E;
+    padding: 10px 30px;
+    font-size: 35px;text-align: center;
+}
+.stHorizontalBlock{
+    margin-top: 30px;
+}
+.positiveResult{
+    background-color:#e3fce5;color:green;
+    border-radius: 15px;padding: 15px;font-weight: 600;
+    margin: 10px 0 20px 0;
+}
+.negativeResult{
+    background-color:#ffc6c2;color:#750101;
+    border-radius: 15px;padding: 15px;font-weight: 600;
+    margin: 10px 0 20px 0;
+}
+.ResultInner_div{
+    display: flex;justify-content: start;align-items: center;column-gap: 15px;flex-wrap: wrap;
+    margin: 10px 0 0 18px;
+}
+
+.footer{
+    height: fit-content;
+    background-color: #f0f0f0;
+    padding: 20px;border-radius: 15px;margin-top: 50px;
+    display: flex;justify-content: space-evenly;align-items: center;flex-wrap: wrap;gap: 10px;
+}
+.connectData{
+    font-size: 20px;
+    display: flex;gap: 10px;
+    color: black;text-decoration: none;
+    width: fit-content;transition: all 1s;
+}
+.footer_text{transition: all 1s;}
+.footer_Icon{transition: all 1s;}
+.IconsStyle{
+    color: var(--primary-color) !important;
+}
+/* .connectData:hover{transform: scale(1.05);text-shadow: 2px 2px 2px var(--primary-color);} */
+.connectData:hover .footer_text{transform: scale(1.05);text-shadow: 2px 2px 1px var(--primary-color);}
+.connectData:hover .footer_Icon{transform: scale(1.05);text-shadow: 2px 2px 2px var(--text-color);}
+.copy_div{
+    color: rgba(0, 0, 0, 0.886);
+    height: fit-content;text-align: center;
+    transform: scale(1.05);text-shadow: 1px 1px 1px var(--primary1-color);font-size: 18px;
+}
+
+@media screen and (max-width:612px){
+    .title{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:472px){
+    .title{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main */
+.stMainBlockContainer{
+    padding:10px 20px ;
+}
+/* .st-emotion-cache-b219sh{gap: 0px !important;}
+.st-emotion-cache-1q80ws6{gap: 0px !important;} */

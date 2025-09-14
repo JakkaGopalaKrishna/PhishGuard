@@ -1,0 +1,7 @@
+url,label
+http://192.168.0.1/login,phishing
+https://accounts-google.com/update,phishing
+https://github.com,legitimate
+http://secure-paypal.example.com/verify,phishing
+https://bankofamerica.com,legitimate
+http://example.com/wp-admin,phishing
