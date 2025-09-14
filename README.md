@@ -9,6 +9,9 @@ This project is meant as a portfolio/demo project for cybersecurity roles and ca
 ```
 phishing-detector/
 ├── app.py
+├── style.css
+├── JGKlogo1.png
+├── Demo output.png
 ├── requirements.txt
 ├── utils/
 │   ├── feature_extractor.py
@@ -40,3 +43,7 @@ phishing-detector/
 ## Notes
 - This implementation uses **rule-based heuristics**, not a trained ML model. For higher accuracy, integrate a trained model and/or third-party reputation services.
 - Do not use this tool as the sole protection — it is educational/demo-grade.
+
+## Demo Output
+
+<img src="/Demo output.png" alt="PhishGuard Demo" width="600">
